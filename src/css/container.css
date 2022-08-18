@@ -1,7 +1,14 @@
 .container{
     width: 100%;
-    max-width: 661px;
+    max-width: 660px;
     background-color: #c4c4c4;
-    margin: 0 auto;
-    padding-top: 62px;
+    padding: 60px 80px;
+
   }
+
+@media (max-width: 660px){
+
+.container{
+  padding: 60px 0px;
+}
+}

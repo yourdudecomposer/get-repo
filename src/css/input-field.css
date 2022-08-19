@@ -36,3 +36,7 @@
     height: 40px;
 }
 
+.input::placeholder{
+    opacity: .75;
+    color: #c4c4c4;
+}

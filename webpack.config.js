@@ -3,7 +3,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
-    mode: 'production',
+
+    mode: 'development',
     entry: './src/js/index.js',
     output: {
         filename: 'bundle.js',
@@ -14,9 +15,6 @@ module.exports = {
     devServer: {
         watchFiles: ["src/*.html"],
         hot: true,
-        client: {
-            reconnect: 2,
-        },
     },
     module: {
         rules: [

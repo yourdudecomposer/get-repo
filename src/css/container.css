@@ -3,7 +3,7 @@
     max-width: 660px;
     background-color: #c4c4c4;
     padding: 60px 80px;
-
+height: fit-content;
   }
 
 @media (max-width: 660px){

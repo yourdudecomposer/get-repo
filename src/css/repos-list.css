@@ -11,9 +11,36 @@
     height: 100px;
     display: flex;
     justify-content: space-between;
+    align-items:center;
 }
 
 .list-item-text__par{
     margin: 0;
     font-size: 24px;
+}
+
+.list-item-close-btn{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+.list-item-close-btn__line{
+    background-color: red;
+    width: 4px;
+    height: 45px;
+
+}
+.list-item-close-btn__line:nth-child(1){
+    transform: rotate(45deg);
+    position: relative;
+    left: 50%;
+}
+.list-item-close-btn__line:nth-child(2){
+    transform: rotate(-45deg);
+    position: relative;
+    left: 50%;
+    bottom: 100%;
 }

@@ -100,10 +100,17 @@ font-size: 30px;
     border: solid;
     border-top-color: #e27beb;
 }
+
+
 .list-item:first-child{
     border-top-color: #000;
 }
 
+.list-item-text{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
 
 .list-item-text__par{
     margin: 0;

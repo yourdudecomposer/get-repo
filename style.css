@@ -38,7 +38,7 @@ height: fit-content;
 
 
 .input-field{
-    height: 281px
+    padding-bottom: 60px;
 }
 
 .input{
@@ -48,7 +48,11 @@ height: fit-content;
     padding-left: 13px;
     border: none;
 }
-
+@media (max-width: 660px){
+    .input{
+font-size: 30px;
+    }
+}
 .search-offer{
     padding: 0;
     margin: 0;
@@ -92,13 +96,24 @@ height: fit-content;
     display: flex;
     justify-content: space-between;
     align-items:center;
+    overflow: hidden;
+    border: solid;
+    border-top-color: #e27beb;
 }
+.list-item:first-child{
+    border-top-color: #000;
+}
+
 
 .list-item-text__par{
     margin: 0;
     font-size: 24px;
 }
-
+@media (max-width: 660px){
+    .list-item-text__par{
+        font-size: 18px;
+    }
+}
 .list-item-close-btn{
     width: 45px;
     height: 45px;
@@ -113,6 +128,19 @@ height: fit-content;
     height: 45px;
 
 }
+@media (max-width: 660px){
+    .list-item-close-btn{
+        width: 38px;
+        height: 38px;
+
+    }
+    .list-item-close-btn__line{
+
+        height: 38px;
+    
+    }
+}
+
 .list-item-close-btn__line:nth-child(1){
     transform: rotate(45deg);
     position: relative;

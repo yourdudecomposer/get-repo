@@ -33,4 +33,4 @@ function onUserInput() {
         .catch(err => console.log(err))
 }
 
-export default onUserInput = debounce(onUserInput, 1000)
+export default onUserInput = debounce(onUserInput, 500)

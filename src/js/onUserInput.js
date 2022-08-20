@@ -5,11 +5,6 @@ import debounce from "./debounce";
 
 function searchData(request) {
     return fetch(`https://api.github.com/search/repositories?q=${request}&per_page=5`)
-        .then(data => {
-            if (!data.ok) {
-                alert('wait a few sec')
-            } else return data
-        })
         .then(data => data.json())
 }
 function showData(data) {

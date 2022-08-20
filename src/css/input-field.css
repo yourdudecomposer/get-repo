@@ -1,7 +1,7 @@
 
 
 .input-field{
-    height: 281px
+    padding-bottom: 60px;
 }
 
 .input{
@@ -11,7 +11,11 @@
     padding-left: 13px;
     border: none;
 }
-
+@media (max-width: 660px){
+    .input{
+font-size: 30px;
+    }
+}
 .search-offer{
     padding: 0;
     margin: 0;
